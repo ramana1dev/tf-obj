@@ -34,7 +34,7 @@ def class_text_to_int(row_label):
     if row_label == 'Person':
         return "Person"
     else:
-        None
+        return 0
 
 
 def split(df, group):
